@@ -97,10 +97,6 @@ def preprocessing():
 
         data_array = df_to_normalized_ndarray(df_num, df)
         encoded_data_cat = categorical_data_to_numerical_encoding(df_cat)
-        print("Shape of df_cat : ", df_cat.shape)
-        print("first element of df_cat :", df_cat.head)
-        print("Shape of encoded_data_cat : ", encoded_data_cat.shape)
-        print("first element of encoded_data_cat :", encoded_data_cat[0])
 
         # 6--> Concatenating encoded categorical data with numerical data array
 
@@ -113,14 +109,8 @@ def preprocessing():
         print("First row of concatenated data:", concatenated_data[0])
 
         result_data.append(concatenated_data)
-        print("Shape of concatenated_data : ", concatenated_data.shape)
         result_data.append(y_cat)
-        print("Shape of y_cat : ", y_cat.shape)
-
         result_data.append(all_cat)
-        print("Shape of all_cat : ", all_cat[0])
-
-        print(len(result_data))
         preprocessed_data.append(result_data)
 
     with open("preprocessedData.txt", "w") as output:
