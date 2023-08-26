@@ -1,8 +1,7 @@
-# Biclustering and Co-Activation Analysis (BCCA) Algorithm
+# REMBic-BCCA
 
-Welcome to the Biclustering and Co-Activation Analysis (BCCA) Algorithm repository! This project implements a powerful algorithm for identifying biclusters and co-activation patterns within biological datasets. BCCA can help uncover hidden relationships and functional insights in complex biological data.
+ This project implements a powerful algorithm for identifying biclusters and co-activation patterns within biological datasets. BCCA can help uncover hidden relationships and functional insights in complex biological data.
 
-![Project Logo](/path/to/logo.png) <!-- You can include a logo here -->
 
 ## Table of Contents
 
@@ -35,5 +34,5 @@ The BCCA Algorithm is designed to identify groups of genes that exhibit similar 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/bcca-algorithm.git
-   cd bcca-algorithm
+   git clone git@github.com:kamzon/REMBic-BCCA.git
+   cd REMBic-BCCA
