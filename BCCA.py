@@ -20,7 +20,7 @@
 """
 
 from _base import BaseBiclusteringAlgorithm
-from model import Bicluster, Biclustering
+from models import Bicluster, Biclustering
 from itertools import combinations
 from sklearn.utils.validation import check_array
 
@@ -81,8 +81,8 @@ class BiCorrelationClusteringAlgorithm(BaseBiclusteringAlgorithm):
                     biclusters.append(b)
             
 
-        for b in biclusters:
-            print(b)
+        # for b in biclusters:
+        #     print(b)
 
     
 
