@@ -36,3 +36,4 @@ The BCCA Algorithm is designed to identify groups of genes that exhibit similar 
    ```bash
    git clone git@github.com:kamzon/REMBic-BCCA.git
    cd REMBic-BCCA
+   python BCCA_modified.py
